@@ -1,4 +1,10 @@
-# UnrealGDAL: Unreal Engine GDAL plugin
+# This repository provides compiled Biraries of the UnrealGDAL plugin.
+
+Download the plugin in the releases page for your Unreal Engine Version.
+
+
+
+## UnrealGDAL: Unreal Engine GDAL plugin
 
 This plugin provides access to the [GDAL/OGR](https://gdal.org/) C++ API inside the Unreal Engine, allowing Unreal projects and plugins to easily import and manipulate geospatial data. In addition to providing access to the full GDAL/OGR C++ API surface, the plugin bundles the header-only [mergetiff](https://github.com/adamrehn/mergetiff-cxx) library for providing [convenient smart pointer types](./Source/UnrealGDAL/Public/SmartPointers.h), and includes [interoperability functionality](./Source/UnrealGDAL/Public/GDALHelpers.h) for accessing the GDAL/OGR API using native Unreal Engine datatypes.
 
