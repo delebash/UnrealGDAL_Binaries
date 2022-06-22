@@ -10,7 +10,7 @@ using System.Collections.Generic;
 
 //For Tools.DotNETCommon.JsonObject and Tools.DotNETCommon.FileReference
 using Tools.DotNETCommon;
-
+//Replace Tools.DotNetCommon with using EpicGames.Core; for UE5
 public class GDAL : ModuleRules
 {
 	//Returns the identifier string for the given target, which includes its platform, architecture (if specified), and debug CRT status
